@@ -1,0 +1,10 @@
+{
+    "name": "Subhopriyo's Adblocker",
+    "version": "1.0.0",
+    "description": "Block Unwanted Adds",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["block.js"]
+    },
+    "manifest_version": 2
+}
